@@ -16,7 +16,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, device/infinix/X688B/device.mk)
 
 PRODUCT_DEVICE := X688B
-PRODUCT_NAME := TWRP_X688B
+PRODUCT_NAME := twrp_X688B
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix hot 11 play
 PRODUCT_MANUFACTURER := infinix
