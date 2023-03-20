@@ -7,18 +7,18 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from Infinix-X688B device
-$(call inherit-product, device/infinix/Infinix-X688B/device.mk)
+$(call inherit-product, device/infinix/X688B/device.mk)
 
-PRODUCT_DEVICE := Infinix-X688B
-PRODUCT_NAME := omni_Infinix-X688B
+PRODUCT_DEVICE := X688B
+PRODUCT_NAME := TWRP_X688B
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := Infinix X688B
+PRODUCT_MODEL := Infinix hot 11 play
 PRODUCT_MANUFACTURER := infinix
 
 PRODUCT_GMS_CLIENTID_BASE := android-infinix
