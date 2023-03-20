@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/infinix/Infinix-X688B
+LOCAL_PATH := device/infinix/X688B
